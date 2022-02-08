@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-var cors = require('cors');
+/*var cors = require('cors');
 
 app.use(
     cors({
@@ -8,7 +8,7 @@ app.use(
         origin: 'https://xenodochial-gates-cf6795.netlify.app'
     })
 );
-app.options('*', cors());
+app.options('*', cors());*/
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
